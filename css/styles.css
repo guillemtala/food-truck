@@ -1,0 +1,436 @@
+* {
+    box-sizing: border-box;
+    /* https://fonts.google.com */
+    font-family: 'Lobster', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/21omxpw.jpg");
+    background-attachment: fixed;
+}
+
+
+/* Clear floats after the columns */
+
+.row-c:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Menú */
+
+.section-100 {
+    float: left;
+    width: 100%;
+}
+
+
+/* Columnas */
+
+.column-33 {
+    width: 33.33%;
+    float: left;
+    height: 100%;
+}
+
+.column-33-2 {
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    background-color: #242424;
+    padding: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white 3px;
+    text-decoration: none;
+    color: white;
+}
+
+.column-33-2:hover {
+    background-color: #474646;
+    transition: all 0.5s;
+}
+
+.column-33-2 img {
+    width: 13vw;
+}
+
+.cards-grid {
+    display: flex;
+    grid-gap: 80px;
+    padding-bottom: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.column100 {
+    width: 100%;
+    float: left;
+    padding-top: 6vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    color: white;
+    text-align: center;
+}
+
+.column100 h2 {
+    text-align: center;
+    font-size: 4vw;
+    color: white;
+}
+
+.column4 {
+    width: 25%;
+    float: left;
+    padding: 1vw;
+}
+
+.column4 img {
+    width: 15vw;
+    height: 18vw;
+}
+
+.column-100 {
+    width: 100%;
+    float: left;
+    height: 4vw;
+    background-color: black;
+}
+
+.column-100-5 {
+    width: 100%;
+    float: left;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    color: white;
+    padding-top: 3vw;
+}
+
+.column-100-2 {
+    width: 100%;
+    padding: 3vw;
+    padding-top: 1vw;
+    float: left;
+}
+
+.column-100-3 {
+    width: 100%;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 3vw;
+}
+
+.column-100-4 {
+    width: 100%;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 3vw;
+    padding-bottom: 1vw;
+}
+
+.column-50 {
+    width: 50%;
+    float: left;
+    text-align: justify;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.fixed {
+    position: fixed;
+    z-index: 100;
+}
+
+.column-5 {
+    width: 20%;
+    float: left;
+    padding: 1vw;
+}
+
+#bravas {
+    background-image: url("../img/bravas.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#butifarra {
+    background-image: url("../img/butifarra.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#hamb {
+    background-image: url("../img/hamburguesa.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#gam {
+    background-image: url("../img/gambas.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#sand {
+    background-image: url("../img/alitas.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.column-50 p {
+    font-size: 1.3vw;
+}
+
+.column-100-4 p {
+    font-size: 1.3vw;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+.menu {
+    width: 100%;
+}
+
+.boton {
+    background-color: #242424;
+    border: none;
+    width: 30vw;
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+.logo {
+    width: 3vw;
+    padding-top: 0.5vw;
+}
+
+iframe {
+    width: 100%;
+    height: 40vw;
+}
+
+.imagen-logo {
+    width: 30vw;
+}
+
+
+/* Flex */
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    font-size: 2vw;
+    color: white;
+    padding-top: 1vw;
+}
+
+.column-33:hover {
+    background: red;
+    color: black;
+    transition: all 0.4s linear;
+}
+
+.reloj {
+    width: 20vw;
+}
+
+
+/* slider */
+
+#body {
+    background-color: #D1C592;
+    animation: mymove 5s infinite;
+}
+
+
+/* @keyframes mymove {
+    from {
+        background-color: #D1C592;
+    }
+    to {
+        background-color: blue;
+    }
+} */
+
+
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 1600px;
+    position: relative;
+    margin: auto;
+    /*     padding-left: 3vw;
+    padding-right: 3vw; */
+}
+
+
+/* Caption text */
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+
+/* Fading animation */
+
+.fade {
+    animation-name: fade;
+    animation-duration: 5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .2
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .column-100 {
+        height: 12vw;
+    }
+    .column4 {
+        width: 50%;
+    }
+    .column-33-2 {
+        width: 100%;
+    }
+    .column4 img {
+        width: 30vw;
+        height: 36vw;
+    }
+    i {
+        font-size: 5vw;
+        padding-top: 3vw;
+    }
+    .logo {
+        width: 8vw;
+        padding-top: 2.5vw;
+    }
+    h1 {
+        font-size: 5vw;
+    }
+    h2 {
+        font-size: 4vw;
+    }
+    .column-50 {
+        width: 100%;
+    }
+    .column-50 p {
+        font-size: 3vw;
+    }
+    .column-100-4 p {
+        font-size: 3vw;
+    }
+    .boton {
+        background-color: #242424;
+        border: none;
+        width: 100%;
+        color: white;
+    }
+    .imagen-logo {
+        width: 70vw;
+    }
+    iframe {
+        width: 100%;
+        height: 70vw;
+    }
+    .column-5 {
+        width: 50%;
+        float: left;
+    }
+    .reloj {
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .column4 {
+        width: 100%;
+    }
+    .column4 img {
+        width: 100%;
+        height: 100%;
+    }
+    .column-5 {
+        width: 100%;
+    }
+}

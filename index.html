@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9d7b0531e8.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="img/logo_marca_empresa_circular_redondo_blanco__1_-removebg-preview.png" type="image/x-icon">
+    <title>Food Truck</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+<body>
+
+    <div class="column-100 fixed">
+        <div class="column-33">
+            <div class="flex">
+                <img class="logo" src="img/logo_marca_empresa_circular_redondo_blanco__1_-removebg-preview.png" alt="">
+            </div>
+
+
+        </div>
+        <div class="column-33 row-c">
+            <a class="flex" href="tel:+34655386929"><i class="fa-solid fa-phone"></i></a>
+        </div>
+
+        <div class="column-33 row-c">
+            <a class="flex" href="https://api.whatsapp.com/send?phone=34655386929"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </div>
+    <div class="row-c column-100-3">
+        <div>
+            <img class="imagen-logo" src="./img/logo_marca_empresa_circular_redondo_blanco__1_-removebg-preview.png" alt="">
+        </div>
+        <div>
+            <h1>FOOD TRUCK</h1>
+        </div>
+
+    </div>
+
+    <!-- <div class="column-100-2 row-c flex"> -->
+    <!-- <div class="container-lg my-3">
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                </ol>
+
+                
+                <div class="carousel-inner" style="height: 45vw; text-align: center;">
+                    <div class="carousel-item active">
+
+                        <img src="img/jason-leung-poI7DelFiVA-unsplash.jpg" class="d-block w-100" alt="Slide 1">
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/patrick-tomasso-GXXYkSwndP4-unsplash.jpg" class="d-block w-100" alt="Slide 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/alex-haney-CAhjZmVk5H4-unsplash.jpg" class="d-block w-100" alt="Slide 3">
+                    </div>
+                </div>
+
+                
+                <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div> -->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img/jason-leung-poI7DelFiVA-unsplash.jpg" style="width:100%">
+            <div class="text">Interior</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/patrick-tomasso-GXXYkSwndP4-unsplash.jpg" style="width:100%">
+            <div class="text">Barra</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/alex-haney-CAhjZmVk5H4-unsplash.jpg" style="width:100%">
+            <div class="text">Mesa</div>
+        </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 4000);
+        }
+    </script>
+    <!-- </div> -->
+    <div class="row-c column-100-5">
+        <a href="menucaliente.html">
+            <div class="column-33-2">
+                <img src="img/platocaliente.png" alt="">
+                <h4>Platos calientes</h4>
+            </div>
+        </a>
+        <a href="menufrio.html">
+            <div class="column-33-2">
+                <img src="img/platofrio.png" alt="">
+                <h4>Platos frios</h4>
+            </div>
+        </a>
+        <a href="bebidas.html">
+            <div class="column-33-2">
+                <img src="img/refrescos.png" alt="">
+                <h4>Refrescos</h4>
+
+            </div>
+        </a>
+    </div>
+    <div class="row-c column-100-3">
+        <div class="column-50">
+            <div class="flex">
+                <img class="reloj" src="./img/reloj.png" alt="">
+            </div>
+
+        </div>
+        <div class="column-50">
+            <h2>Horario</h2>
+            <p>Abrimos de martes a domingo(Lunes cerrado)</p>
+            <p>8.00 a 00:00</p>
+        </div>
+    </div>
+
+    <div class="row-c column-100-3">
+        <div class="column-100-3">
+            <h2>MEJORES PLATOS</h2>
+        </div>
+        <div class="column-5">
+            <h3>Bravas</h3>
+            <p>4€</p>
+            <div id="bravas">
+
+            </div>
+        </div>
+        <div class="column-5">
+            <h3>Butifarra</h3>
+            <p>6€</p>
+            <div id="butifarra">
+
+            </div>
+        </div>
+        <div class="column-5">
+            <h3>Hamburguesa</h3>
+            <p>9€</p>
+            <div id="hamb">
+
+            </div>
+        </div>
+        <div class="column-5">
+            <h3>Gambas</h3>
+            <p>15€</p>
+            <div id="gam">
+
+            </div>
+        </div>
+        <div class="column-5">
+            <h3>Alitas</h3>
+            <p>6€</p>
+            <div id="sand">
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
