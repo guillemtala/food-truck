@@ -400,6 +400,12 @@ i {
     .column-100-4 p {
         font-size: 3vw;
     }
+    .column100 {
+        padding-top: 20vw;
+    }
+    .column100 h2 {
+        font-size: 8vw;
+    }
     .boton {
         background-color: #242424;
         border: none;
